@@ -1,0 +1,35 @@
+# Build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data directories
+data/
+wal/
+tmp/
+
+# Test coverage
+coverage/
+*.prof
+*.profraw
+
+# Benchmarks
+benches/*.json
+
+# Documentation
+docs/_build/
