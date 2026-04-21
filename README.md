@@ -1,6 +1,7 @@
 # Chronos - Time-Series Database with Embedded ML Inference
 
 <p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/moggan1337/Chronos/ci.yml?branch=main&style=for-the-badge" alt="CI">
   <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Rust-1.70+-orange.svg" alt="Rust">
@@ -17,6 +18,24 @@ Chronos is a high-performance time-series database built in Rust, featuring:
 - **Retention Policies** and automatic downsampling
 
 ---
+
+## 🎬 Demo
+![Chronos Demo](demo.gif)
+
+*Real-time time-series ingestion and ML-powered forecasting*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Data Dashboard | ![dashboard](screenshots/dashboard.png) |
+| Anomaly Detection | ![anomaly](screenshots/anomaly.png) |
+| Forecast View | ![forecast](screenshots/forecast.png) |
+
+## Visual Description
+Dashboard displays streaming data with smooth line charts updating in real-time. Anomaly detection highlights outliers with red markers and confidence intervals. Forecast shows predicted values with uncertainty bands.
+
+---
+
 
 ## Table of Contents
 
